@@ -28,3 +28,4 @@ Abre la terminal, navega a la carpeta donde guardaste dictador.py, y ejecuta:
 - "Opción uno: Lima" → Se registrará como Opción 1: Lima
 - "Opción dos: Cusco" → Se registrará como Opción 2: Cusco
 - "Respuesta correcta: uno" → Se guardará como 1
+- Cuando termines, di "terminar" y el archivo Excel estará listo. 🚀
