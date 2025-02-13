@@ -49,6 +49,7 @@ with sd.RawInputStream(samplerate=16000, blocksize=8000, dtype='int16',
 
             if "nueva pregunta" in texto:
                 if actual_pregunta:
+                    # Guardar la pregunta anterior antes de limpiar las variables
                     print(f"✅ Guardando pregunta: {actual_pregunta}")
                     preguntas.append({
                         "Pregunta": actual_pregunta,
@@ -58,6 +59,8 @@ with sd.RawInputStream(samplerate=16000, blocksize=8000, dtype='int16',
                         "Opción 4": opciones.get("4", ""),
                         "Respuesta Correcta": respuesta_correcta
                     })
+                
+                # Actualizar la nueva pregunta
                 actual_pregunta = texto.replace("nueva pregunta", "").strip()
                 opciones = {}
                 respuesta_correcta = ""
@@ -72,7 +75,7 @@ with sd.RawInputStream(samplerate=16000, blocksize=8000, dtype='int16',
             elif "respuesta correcta" in texto:
                 respuesta_correcta = texto.replace("respuesta correcta", "").strip()
 
-    # Agregar la última pregunta si no fue guardada
+    # Guardar la última pregunta si no fue guardada
     if actual_pregunta:
         print(f"✅ Guardando última pregunta: {actual_pregunta}")
         preguntas.append({
