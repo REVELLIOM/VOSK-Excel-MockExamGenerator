@@ -1,4 +1,4 @@
-# VOSK-Excel-MockExamGenerator
+# VOSK- Generador de Exámenes en Excel
 ✅ 1. Requisitos Previos
 - Asegúrate de tener Python instalado. Puedes verificarlo con:
 ```sh
