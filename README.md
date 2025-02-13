@@ -17,7 +17,7 @@ pip install pandas openpyxl
 ## 📥 3. Descarga del Modelo de Español
 VOSK necesita un modelo de lenguaje para funcionar. Descarga uno desde VOSK Models:
 - Busca “vosk-model-small-es-0.42” (modelo en español, ligero).
-- Extrae la carpeta en una ubicación fácil, por ejemplo: C:\vosk-model-small-es-0.42
+- Extrae la carpeta en una ubicación fácil, por ejemplo: C:/Vosk/vosk-model-small-es-0.42
 
 ## ▶️ 4. Ejecutar el Programa
 - Guarda el archivo.
