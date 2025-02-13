@@ -1,7 +1,7 @@
 # VOSK-Excel-MockExamGenerator
 ✅ 1. Requisitos Previos
 Asegúrate de tener Python instalado. Puedes verificarlo con:
-> python --version
+    python --version
 Si no lo tienes, descarga e instala desde python.org.
 
 ## ⚙️ 2. Instalación de VOSK
